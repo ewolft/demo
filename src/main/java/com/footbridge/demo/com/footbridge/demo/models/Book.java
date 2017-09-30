@@ -15,6 +15,8 @@ public class Book {
     private String publisher;
     private String isbn;
     private String title;
+    private String publication_date;
+
 
     public Book() {}
 
@@ -33,6 +35,14 @@ public class Book {
         this.publisher = publisher;
         this.isbn = isbn;
         this.title = title;
+    }
+
+    public String getPublication_date() {
+        return publication_date;
+    }
+
+    public void setPublication_date(String publication_date) {
+        this.publication_date = publication_date;
     }
 
     public String getPublisher() {
